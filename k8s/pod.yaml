@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-portfolio
+spec:
+  containers:
+  - name: my-portfolio
+    image: abhaygrt/my-portfolio:latest
+    ports:
+    - containerPort: 8080
+
